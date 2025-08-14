@@ -19,7 +19,7 @@ export function BasicAppShell({
   return (
     <Box
       style={{
-        maxWidth: "2000px",
+        maxWidth: "1440px",
         margin: "0 auto",
         boxShadow: "0 0 0 1px rgba(0,0,0,0.1)",
       }}

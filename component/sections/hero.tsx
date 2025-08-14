@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="mt-[75px] py-[80px] px-[20px] gap-[40px] md:px-[60px] bg-[url('/BACKGROUND.png')] bg-cyan bg-cover flex flex-col lg:flex-row items-center  justify-between">
+    <div className="mt-[75px] py-[80px] px-[20px] gap-[40px] md:px-[60px] bg-[url('/BACKGROUND.png')] bg-cyan bg-cover flex flex-col-reverse lg:flex-row items-center  justify-between">
       <div className="flex flex-col gap-[30px]">
-        <p className="font-bold text-[64px] leading-[70px]">
+        <p className="font-bold text-[54px] leading-[60px]">
           Nurturing <br /> Africa’s Gifted <br />
           Tech Talents
         </p>
@@ -52,10 +52,10 @@ const Hero = () => {
 
       <Image
         src="/hero-img.png"
-        width={657}
-        height={560}
+        width={557}
+        height={460}
         alt="Team work"
-        className="w-full md:w-[657px] h-auto"
+        className="w-full md:w-[557px] h-auto"
       />
     </div>
   );

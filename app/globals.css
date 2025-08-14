@@ -10,6 +10,7 @@
     --deep-teal: #047857;
     --eerie-black: #1a1a1a;
     --dark-navy-blue: #0f172b;
+    --light-blue:#F5F7FA;
     --black: #000000;
     --cyan:#E6F2EF;
   }
@@ -25,6 +26,7 @@
   --color-darknavyblue: var(--dark-navy-blue);
   --color-black: var(--black);
   --color-cyan: var(--cyan);
+  --color-lightblue:var( --light-blue);
   --font-grotesk: var(--font-grotesk);
 }
 

@@ -22,7 +22,7 @@ const Section2 = () => {
               height={48}
               alt="Team work"
             />
-            <p className="font-bold text-[48px]">1000+</p>
+            <p className="font-bold text-[38px]">1000+</p>
             <p className="font-normal text-[18px]"> Tech Talents Transformed</p>
           </div>
 
@@ -33,7 +33,7 @@ const Section2 = () => {
               height={48}
               alt="Team work"
             />
-            <p className="font-bold text-[48px]">10+</p>
+            <p className="font-bold text-[38px]">10+</p>
             <p className="font-normal text-[18px]"> Years of impact</p>
           </div>
 
@@ -44,11 +44,11 @@ const Section2 = () => {
               height={48}
               alt="Team work"
             />
-            <p className="font-bold text-[48px]">50+</p>
+            <p className="font-bold text-[38px]">50+</p>
             <p className="font-normal text-[18px]"> Collaborative Projects</p>
           </div>
         </div>
-        <div className="px-[20px] md:px-[60px] flex flex-col lg:flex-row gap-[24] lg:gap-0 justify-between">
+        <div className="px-[20px] md:px-[60px] flex flex-col lg:flex-row  justify-between">
           <div className=" flex flex-col gap-[24]">
             <div className="flex flex-col gap-[8px]">
               <p className="text-deepteal font-bold text-[18px]">
@@ -96,10 +96,10 @@ const Section2 = () => {
 
           <Image
             src="/unique-impact.png"
-            width={628}
-            height={490}
+            width={500}
+            height={400}
             alt="Team wok"
-            className="w-full md:w-[628px] h-auto"
+            className="w-full md:w-[500px] h-auto"
           />
         </div>
       </div>

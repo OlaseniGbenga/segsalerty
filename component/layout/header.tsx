@@ -14,7 +14,7 @@ interface ToggleProps {
 
 export default function Header({ opened, toggle, pathname }: ToggleProps) {
   return (
-    <Container size="2000" h="100%" bg={"white"}>
+    <Container size="1440" h="100%" bg={"white"}>
       <Group h="100%" w="100%" justify="space-between" align="center">
         <Image
           src="/segsalerty.svg"
