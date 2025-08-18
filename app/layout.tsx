@@ -6,7 +6,6 @@ import { theme } from "@/utils/mantine-theme";
 import "./globals.css";
 import {  SpaceGrotesk } from "@/app/lib/fonts";
 
-import { BasicAppShell } from "@/component/layout/AppShell";
 
 export const metadata: Metadata = {
   title: "Business Gator | Smart Financial Systems & Grant Strategy",
@@ -70,7 +69,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={SpaceGrotesk.variable}>
         <MantineProvider theme={theme}>
-          <BasicAppShell>{children}</BasicAppShell>
+         {children}
         </MantineProvider>
       </body>
     </html>

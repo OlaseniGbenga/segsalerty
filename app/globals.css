@@ -13,6 +13,7 @@
     --light-blue:#F5F7FA;
     --black: #000000;
     --cyan:#E6F2EF;
+    
   }
 }
 
@@ -42,3 +43,28 @@ body {
   color: black;
   font-family: var(--font-grotesk);
 }
+
+.logo-scroller {
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+}
+
+.scroll-track {
+  display: flex;
+  animation: scroll-left 25s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+

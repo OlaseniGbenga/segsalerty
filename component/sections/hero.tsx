@@ -1,9 +1,10 @@
 import { Button } from "@mantine/core";
 import Image from "next/image";
 
+
 const Hero = () => {
   return (
-    <div className="mt-[75px] py-[80px] px-[20px] gap-[40px] md:px-[60px] bg-[url('/BACKGROUND.png')] bg-cyan bg-cover flex flex-col-reverse lg:flex-row items-center  justify-between">
+    <div className="mt-[20px] md:mt-[75px] py-[80px] px-[20px] gap-[40px] md:px-[60px] bg-[url('/BACKGROUND.png')] bg-cyan bg-cover flex flex-col-reverse lg:flex-row items-center  justify-between">
       <div className="flex flex-col gap-[30px]">
         <p className="font-bold text-[54px] leading-[60px]">
           Nurturing <br /> Africa’s Gifted <br />

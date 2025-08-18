@@ -2,7 +2,7 @@
 import { Burger, Container, Group, Text, Button } from "@mantine/core";
 
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 import { NAVITEMS } from "@/utils/constants";
 
@@ -10,9 +10,11 @@ interface ToggleProps {
   opened: boolean;
   toggle: () => void;
   pathname: string;
+  scrollTo: (key: string) => void;
 }
 
-export default function Header({ opened, toggle, pathname }: ToggleProps) {
+export default function Header({ scrollTo, opened, toggle }: ToggleProps) {
+  const [activeSection, setActiveSection] = useState("Impact");
   return (
     <Container size="1440" h="100%" bg={"white"}>
       <Group h="100%" w="100%" justify="space-between" align="center">
@@ -25,21 +27,24 @@ export default function Header({ opened, toggle, pathname }: ToggleProps) {
         />
         <Group visibleFrom="sm" gap="md">
           {NAVITEMS.map((item) => {
-            const isActive = pathname === item.href;
+            const isActive = activeSection === item.key;
+
             return (
               <Text
+                key={item.label}
                 style={{
                   textDecoration: "none",
                   fontWeight: isActive ? 700 : 400,
                   fontSize: "18px",
-
                   borderBottom: isActive
                     ? `2px solid var(--deep-teal)`
                     : "none",
+                  cursor: "pointer",
                 }}
-                key={item.label}
-                component="a"
-                href={item.href}
+                onClick={() => {
+                  scrollTo(item.key);
+                  setActiveSection(item.key);
+                }}
               >
                 {item.label}
               </Text>

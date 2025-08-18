@@ -1,9 +1,10 @@
 import { Badge } from "@/component/ui/badge";
 import Image from "next/image";
+import { forwardRef } from "react";
 
-const Section2 = () => {
+const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
   return (
-    <section className="py-[80px] flex flex-col gap-[80px]">
+    <section ref={ref} className="py-[80px] flex flex-col gap-[80px]">
       <p className="text-[32px] font-normal text-center px-[20px] md:px-[60px]">
         We take pride in our distinctive approach: rather than directly teaching{" "}
         <br /> technical skills,{" "}
@@ -117,6 +118,6 @@ const Section2 = () => {
       </p>
     </section>
   );
-};
-
+});
+Section2.displayName = "Section2";
 export default Section2;

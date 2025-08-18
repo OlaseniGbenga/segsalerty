@@ -1,20 +1,22 @@
 import { Badge } from "@/component/ui/badge";
 import { Button } from "@mantine/core";
 import Image from "next/image";
-import { forwardRef } from "react";
 
-const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
+const Section6 = () => {
   return (
-    <section ref={ref} className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-cyan">
+    <section className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-cyan">
       <div className="flex flex-col gap-[20px]">
-        <Badge className="self-center">OUR PROGRAMS, DESIGNED FOR YOU</Badge>
+        <Badge className="self-center">SUPPORT OUR MISSION</Badge>
         <p className="font-normal text-[17px] text-center">
-          <span className="font-bold">Feeling stuck in your tech journey?</span>
-          <br /> Whether you&apos;re just starting out or unsure how to grow,
-          we&apos;ve designed each of our programs to meet you where you are —
-          and move you
-          <br /> forward.
+          <span className="font-bold">
+            All support inquiries are reviewed exclusively through our official
+            Telegram{" "}
+          </span>
+          channel to ensure transparency, proper coordination, and compliance{" "}
+          <br /> with regulations. This process helps prevent fraudulent
+          activities, including money laundering and terrorism financing.
         </p>
+        <p className="text-center">How you can support:</p>
       </div>
       <div className="flex flex-wrap gap-4 justify-center">
         <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] w-[350px]  sm:w-[411px]  bg-white">
@@ -125,9 +127,6 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
       </p>
     </section>
   );
-})
+};
 
-Section4.displayName = "Section4";
-
-export default Section4;
-
+export default Section6;
