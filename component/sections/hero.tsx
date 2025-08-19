@@ -1,7 +1,6 @@
 import { Button } from "@mantine/core";
 import Image from "next/image";
 
-
 const Hero = () => {
   return (
     <div className="mt-[20px] md:mt-[75px] py-[80px] px-[20px] gap-[40px] md:px-[60px] bg-[url('/BACKGROUND.png')] bg-cyan bg-cover flex flex-col-reverse lg:flex-row items-center  justify-between">
@@ -18,6 +17,10 @@ const Hero = () => {
         </p>
         <div className="flex flex-col md:flex-row gap-[24px] ">
           <Button
+            component="a"
+            href="https://t.me/+aXqfEpkBcy4xNTc8"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -33,20 +36,24 @@ const Hero = () => {
             Support Our Mission
           </Button>
           <Button
+            component="a"
+            href="https://t.me/+jh9aL-fYeB04Mjlk"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "var(--dark-green)",
               border: "solid 1px var(--dark-green)",
               background: "var(--cyan)",
-                height: "48px",
-            padding: "16px 24px",
+              height: "48px",
+              padding: "16px 24px",
             }}
             variant="default"
             rightSection={
               <Image src="/Vector.svg" width={10} height={10} alt="support" />
             }
           >
-            Support Our Mission
+           Join Next Cohort
           </Button>
         </div>
       </div>

@@ -1,8 +1,7 @@
 "use client";
 
 import { useDisclosure } from "@mantine/hooks";
-import { AppShell, Box, Button, Stack, useMantineTheme } from "@mantine/core";
-import { usePathname } from "next/navigation";
+import { AppShell, Box, Button, Stack} from "@mantine/core";
 
 import { NAVITEMS } from "@/utils/constants";
 import Footer from "./footer";
@@ -17,8 +16,7 @@ export function BasicAppShell({
   scrollTo: (key: string) => void;
 }>) {
   const [opened, { toggle }] = useDisclosure();
-  const pathname = usePathname();
-  const theme = useMantineTheme();
+
   return (
     <Box
       style={{
@@ -28,10 +26,10 @@ export function BasicAppShell({
       }}
     >
       <AppShell
-        header={{ height: { base: 60, sm: "auto" } }} 
+        header={{ height: { base: 60, sm: "auto" } }}
         navbar={{
           width: 200,
-          breakpoint: "sm",
+          breakpoint: "md",
           collapsed: { mobile: !opened, desktop: true },
         }}
       >
@@ -44,12 +42,7 @@ export function BasicAppShell({
           pt={"20px"}
           px={{ base: 16, sm: 20, md: 40 }}
         >
-          <Header
-            scrollTo={scrollTo}
-            pathname={pathname}
-            opened={opened}
-            toggle={toggle}
-          />
+          <Header scrollTo={scrollTo} opened={opened} toggle={toggle} />
         </AppShell.Header>
         <AppShell.Navbar p="md">
           <Stack>
@@ -68,21 +61,20 @@ export function BasicAppShell({
                   border: "none",
                   textAlign: "left",
                   cursor: "pointer",
-                  color: theme.colors["green-primary"]?.[0] ?? "black",
+                  color: "var(--deep-teal)",
                 }}
               >
                 {item.label}
               </Box>
             ))}
             <Button
-             
               style={{
                 borderRadius: "10px",
                 color: "white",
                 background: "var(--dark-green)",
                 height: "48px",
                 padding: "16px 24px",
-                alignSelf:"start"
+                alignSelf: "start",
               }}
               variant="filled"
               rightSection={
@@ -91,7 +83,6 @@ export function BasicAppShell({
             >
               Join Our Community
             </Button>
-          
           </Stack>
         </AppShell.Navbar>
         <AppShell.Main>{children}</AppShell.Main>

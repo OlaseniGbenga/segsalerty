@@ -9,7 +9,7 @@ import { NAVITEMS } from "@/utils/constants";
 interface ToggleProps {
   opened: boolean;
   toggle: () => void;
-  pathname: string;
+
   scrollTo: (key: string) => void;
 }
 
@@ -25,7 +25,7 @@ export default function Header({ scrollTo, opened, toggle }: ToggleProps) {
           height={140}
           alt="Logo"
         />
-        <Group visibleFrom="sm" gap="md">
+        <Group visibleFrom="md" gap="md">
           {NAVITEMS.map((item) => {
             const isActive = activeSection === item.key;
 
@@ -40,6 +40,7 @@ export default function Header({ scrollTo, opened, toggle }: ToggleProps) {
                     ? `2px solid var(--deep-teal)`
                     : "none",
                   cursor: "pointer",
+                  color: isActive ? "var(--deep-teal)" : "var(--black)",
                 }}
                 onClick={() => {
                   scrollTo(item.key);
@@ -53,7 +54,11 @@ export default function Header({ scrollTo, opened, toggle }: ToggleProps) {
         </Group>
 
         <Button
-          visibleFrom="sm"
+          component="a"
+          href="https://t.me/+jh9aL-fYeB04Mjlk"
+          target="_blank"
+          rel="noopener noreferrer"
+          visibleFrom="md"
           style={{
             borderRadius: "10px",
             color: "white",
@@ -69,7 +74,7 @@ export default function Header({ scrollTo, opened, toggle }: ToggleProps) {
           Join Our Community
         </Button>
 
-        <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+        <Burger opened={opened} onClick={toggle} hiddenFrom="md" size="sm" />
       </Group>
     </Container>
   );

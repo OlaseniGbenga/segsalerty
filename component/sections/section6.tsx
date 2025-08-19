@@ -54,16 +54,15 @@ const Section6 = () => {
         <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] w-[350px]  sm:w-[411px]  bg-white">
           <div className=" w-[300px] sm:w-[363px] h-[200px] rounded-[10px] bg-[url('/section4/man.jpg')] bg-cover bg-center"></div>
           <p className="text-[24px] font-bold text-deepteal">
-            RISING STARS PROGRAM
+            MID-LEVEL ACCELERATOR
           </p>
           <p className="text-[18px]">
-            Our entry-level program identifies and <br /> nurtures exceptional
-            early-career talents <br /> through comprehensive support.
-            <br /> Understanding that emerging talents <br /> often need more
-            than just mentorship, <br /> we provide substantial financial
-            backing
-            <br /> to support their self-development
-            <br /> journey.
+            Designed for established professionals <br />
+            seeking to elevate their career trajectory <br /> through innovative
+            thinking, strategic <br /> networking, and enhanced leadership{" "}
+            <br /> capabilities. This program connects <br />
+            accomplished talents with a community <br /> of like-minded
+            professionals.
           </p>
           <Button
             visibleFrom="sm"
@@ -80,7 +79,7 @@ const Section6 = () => {
               <Image src="/Ellipse.svg" width={20} height={18} alt="Logo" />
             }
           >
-            Join Our Community
+           Join the Accelerator
           </Button>
         </div>
         <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] w-[350px]  sm:w-[411px]  bg-white">
