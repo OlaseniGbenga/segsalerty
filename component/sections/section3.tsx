@@ -4,10 +4,13 @@ import { forwardRef } from "react";
 
 const Section3 = forwardRef<HTMLDivElement>((props, ref) => {
   return (
-    <section ref={ref} className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-lightblue">
+    <section
+      ref={ref}
+      className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-lightblue"
+    >
       <Badge className="self-center">MEET OUR FOUNDER</Badge>
-      <div className=" flex flex-col-reverse lg:flex-row gap-[24] lg:gap-0 justify-between">
-        <div className=" flex flex-col gap-[24]">
+      <div className=" flex flex-col-reverse lg:flex-row gap-y-[70px] lg:gap-0 justify-between">
+        <div className=" flex flex-col gap-[24px]">
           <div className="flex flex-col gap-[8px]">
             <p className="text-deepteal font-bold text-[18px]">
               VISIONARY LEADERSHIP

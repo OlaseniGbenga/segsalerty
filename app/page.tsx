@@ -9,9 +9,9 @@ import Section7 from "@/component/sections/section7";
 import Section8 from "@/component/sections/section8";
 import { useRef } from "react";
 import { BasicAppShell } from "@/component/layout/AppShell";
+import { motion } from "framer-motion";
 
 export default function Home() {
- 
   const refs = {
     Impact: useRef<HTMLDivElement>(null),
     About: useRef<HTMLDivElement>(null),
@@ -28,8 +28,19 @@ export default function Home() {
   return (
     <>
       <BasicAppShell scrollTo={scrollTo}>
-        <Hero />
-        <Section2  ref={refs.Impact} />
+        <motion.div
+          initial={{ opacity: 0, y: 5 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            opacity: { duration: 0.2 },
+            y: { type: "spring", stiffness: 100 },
+            scale: { type: "spring", damping: 5 },
+          }}
+        >
+          <Hero />
+        </motion.div>
+
+        <Section2 ref={refs.Impact} />
         <Section3 ref={refs.About} />
         <Section4 ref={refs.Programs} />
         <Section5 ref={refs.SupportUs} />

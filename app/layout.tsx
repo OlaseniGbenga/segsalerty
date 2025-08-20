@@ -4,33 +4,58 @@ import "@mantine/core/styles.css";
 
 import { theme } from "@/utils/mantine-theme";
 import "./globals.css";
-import {  SpaceGrotesk } from "@/app/lib/fonts";
-
+import { SpaceGrotesk } from "@/app/lib/fonts";
 
 export const metadata: Metadata = {
-  title: "Business Gator | Smart Financial Systems & Grant Strategy",
+  title: "Segsalerty Talent Support Initiative | Nurturing Gifted Tech Talents",
   description:
-    "Business Gator helps mission-driven organizations build smart financial systems, secure grants, and grow with clarity. Discover funding strategies, cash flow tools, and purpose-driven budgeting.",
+    "Segsalerty is a nonprofit tech talent community focused on nurturing gifted minds in Nigeria through mentorship, financial support, and meaningful connections—helping emerging tech professionals reach world-class levels",
   keywords: [
-    "Business Gator",
-    "Grant strategy Nigeria",
-    "Financial systems for NGOs",
-    "Nonprofit budgeting",
-    "Funding for mission-driven businesses",
-    "Cash flow management",
-    "Grant writing support",
-    "Financial clarity for social impact",
+    // Core Brand Keywords
+    "Segsalerty",
+    "Segsalerty Talent Support Initiative",
+    "Segsalerty Nigeria",
+    "Segsalerty tech community",
+
+    // Program & Services Keywords
+    "tech talent support Nigeria",
+    "tech mentorship program",
+    "rising stars program tech",
+    "mid-level accelerator Nigeria",
+    "tech leaders circle",
+    "software engineering mentorship",
+    "developer support initiative",
+
+    // Audience & Mission Keywords
+    "nurturing tech talents",
+    "empowering young developers Nigeria",
+    "support for tech professionals",
+    "community for software developers",
+    "tech ecosystem Lagos",
+    "talent incubator Nigeria",
+
+    // Value-Based Keywords
+    "mentorship and financial support tech",
+    "build tech career Nigeria",
+    "support for young coders",
+    "access to laptops and internet for tech talent",
+    "bridging the gap for tech developers",
+
+    // Broader SEO Keywords (Long-tail)
+    "how to become a software developer in Nigeria",
+    "mentorship programs for young developers",
+    "financial support for tech students Nigeria",
+    "tech career growth accelerator",
+    "leadership programs for tech professionals",
   ],
-  metadataBase: new URL("https://www.businessgator.com.ng"),
-  authors: [
-    { name: "Business Gator", url: "https://www.businessgator.com.ng" },
-  ],
+  metadataBase: new URL("https://segsalerty.com"),
+  authors: [{ name: "Segsalerty", url: "https://segsalerty.com" }],
   openGraph: {
-    title: "Business Gator | Smart Financial Systems & Grant Strategy",
+    title: "Segsalerty Talent Support Initiative",
     description:
-      "We build smart financial systems for mission-driven businesses, nonprofits, and founders who want clarity and funding success.",
-    url: "https://www.businessgator.com.ng",
-    siteName: "Business Gator",
+      "Segsalerty is a nonprofit tech talent community focused on nurturing gifted minds in Nigeria through mentorship, financial support, and meaningful connections—helping emerging tech professionals reach world-class levels",
+    url: "https://segsalerty.com",
+    siteName: "Segsalerty Talent Support Initiative",
     locale: "en_NG",
     type: "website",
     images: [
@@ -38,24 +63,24 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Business Gator - Grant & Financial Strategy",
+        alt: "Segsalerty",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Business Gator",
+    title: "Segsalerty",
     description:
-      "Smart financial systems, grant discovery, and funding strategy for mission-driven orgs.",
+      "Segsalerty is a nonprofit tech talent community focused on nurturing gifted minds in Nigeria through mentorship, financial support, and meaningful connections—helping emerging tech professionals reach world-class levels",
     images: ["/og-image.jpg"],
-    site: "@businessgator",
-    creator: "@businessgator",
+    site: "@SegsalertyTS",
+    creator: "@SegsalertyTS",
   },
   other: {
     "og:see_also": [
-      "https://www.instagram.com/businessgator",
-      "https://www.facebook.com/businessgator",
-      "https://www.linkedin.com/company/businessgator",
+      "https://www.linkedin.com/company/segsalerty/",
+      "https://x.com/SegsalertyTS",
+      "https://www.instagram.com/segsalertyts/",
     ],
   },
 };
@@ -68,9 +93,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={SpaceGrotesk.variable}>
-        <MantineProvider theme={theme}>
-         {children}
-        </MantineProvider>
+        <MantineProvider theme={theme}>{children}</MantineProvider>
       </body>
     </html>
   );

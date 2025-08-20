@@ -3,6 +3,7 @@ import { Badge } from "@/component/ui/badge";
 import Image from "next/image";
 
 import Socials from "../ui/socials";
+import { Anchor } from "@mantine/core";
 
 const Section8 = () => {
   return (
@@ -10,34 +11,61 @@ const Section8 = () => {
       <section className="flex  flex-col md:flex-row gap-[20px]  items-center justify-center">
         <Badge className="self-center">GAIN VALUE FROM OUR SOCIALS</Badge>
         <div className="flex gap-[10px] items-center">
-          <Image
-            src="/Fb.svg"
-            className="fill-white"
-            width={40}
-            height={40}
-            alt="Facebook icon"
-          />
-          <Image
-            src="/Tw.svg"
-            className="fill-white"
-            width={40}
-            height={40}
-            alt="Twitter Icon"
-          />
-          <Image
-            src="/Ig.svg"
-            className="fill-white"
-            width={40}
-            height={40}
-            alt="Logo"
-          />
-          <Image
-            src="/Ln.svg"
-            className="fill-white "
-            width={40}
-            height={40}
-            alt="Logo"
-          />
+          <Anchor
+            href="https://www.linkedin.com/company/segsalerty/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/Fb.svg"
+              className="fill-white"
+              width={40}
+              height={40}
+              alt="Facebook icon"
+            />
+          </Anchor>
+
+          <Anchor
+            href="https://x.com/SegsalertyTS"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/Tw.svg"
+              className="fill-white"
+              width={40}
+              height={40}
+              alt="Twitter Icon"
+            />
+          </Anchor>
+
+          <Anchor
+            href="https://www.instagram.com/segsalertyts/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/Ig.svg"
+              className="fill-white"
+              width={40}
+              height={40}
+              alt="Logo"
+            />
+          </Anchor>
+
+          <Anchor
+            href="https://www.linkedin.com/company/segsalerty/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/Ln.svg"
+              className="fill-white "
+              width={40}
+              height={40}
+              alt="Logo"
+            />
+          </Anchor>
         </div>
       </section>
       <Socials />

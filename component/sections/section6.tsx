@@ -19,22 +19,19 @@ const Section6 = () => {
         <p className="text-center">How you can support:</p>
       </div>
       <div className="flex flex-wrap gap-4 justify-center">
-        <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] w-[350px]  sm:w-[411px]  bg-white">
-          <div className=" w-[300px] sm:w-[363px] h-[200px] rounded-[10px] bg-[url('/section4/man.jpg')] bg-cover bg-center"></div>
-          <p className="text-[24px] font-bold text-deepteal">
-            RISING STARS PROGRAM
-          </p>
-          <p className="text-[18px]">
-            Our entry-level program identifies and <br /> nurtures exceptional
-            early-career talents <br /> through comprehensive support.
-            <br /> Understanding that emerging talents <br /> often need more
-            than just mentorship, <br /> we provide substantial financial
-            backing
-            <br /> to support their self-development
-            <br /> journey.
-          </p>
+        <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] justify-between w-[350px]  sm:w-[411px]  bg-white">
+          <div className="flex flex-col gap-[24px]">
+            <div className=" w-[300px] sm:w-[363px] h-[200px] rounded-[10px] bg-[url('/section6/image1.jpg')] bg-cover bg-center"></div>
+            <p className="text-[24px] font-bold text-deepteal">
+              FINANCIAL SUPPORT
+            </p>
+            <p className="text-[18px]">
+              Contribute to our community fund to
+              <br /> help provide resources and support to
+              <br /> rising talents.
+            </p>
+          </div>
           <Button
-            visibleFrom="sm"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -45,27 +42,25 @@ const Section6 = () => {
             }}
             variant="filled"
             rightSection={
-              <Image src="/Ellipse.svg" width={20} height={18} alt="Logo" />
+              <Image src="/give-white.svg" width={20} height={18} alt="Logo" />
             }
           >
-            Join Our Community
+            Give to the Community
           </Button>
         </div>
-        <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] w-[350px]  sm:w-[411px]  bg-white">
-          <div className=" w-[300px] sm:w-[363px] h-[200px] rounded-[10px] bg-[url('/section4/man.jpg')] bg-cover bg-center"></div>
-          <p className="text-[24px] font-bold text-deepteal">
-            MID-LEVEL ACCELERATOR
-          </p>
-          <p className="text-[18px]">
-            Designed for established professionals <br />
-            seeking to elevate their career trajectory <br /> through innovative
-            thinking, strategic <br /> networking, and enhanced leadership{" "}
-            <br /> capabilities. This program connects <br />
-            accomplished talents with a community <br /> of like-minded
-            professionals.
-          </p>
+
+        <div className="rounded-[10px] p-[24px] flex flex-col justify-between gap-[24px] w-[350px]  sm:w-[411px]  bg-white">
+          <div className="flex flex-col gap-[24px]">
+            <div className=" w-[300px] sm:w-[363px] h-[200px] rounded-[10px] bg-[url('/section6/image2.jpg')] bg-cover bg-center"></div>
+            <p className="text-[24px] font-bold text-deepteal">
+              PROJECT OPPORTUNITIES
+            </p>
+            <p className="text-[18px]">
+              Outsource your tech projects to our
+              <br /> talented community members.
+            </p>
+          </div>
           <Button
-            visibleFrom="sm"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -76,28 +71,26 @@ const Section6 = () => {
             }}
             variant="filled"
             rightSection={
-              <Image src="/Ellipse.svg" width={20} height={18} alt="Logo" />
+              <Image src="/leftArrow.svg" width={20} height={18} alt="Logo" />
             }
           >
-           Join the Accelerator
+            Join the Accelerator
           </Button>
         </div>
-        <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] w-[350px]  sm:w-[411px]  bg-white">
-          <div className=" w-[300px] sm:w-[363px] h-[200px] rounded-[10px] bg-[url('/section4/man.jpg')] bg-cover bg-center"></div>
-          <p className="text-[24px] font-bold text-deepteal">
-            RISING STARS PROGRAM
-          </p>
-          <p className="text-[18px]">
-            Our entry-level program identifies and <br /> nurtures exceptional
-            early-career talents <br /> through comprehensive support.
-            <br /> Understanding that emerging talents <br /> often need more
-            than just mentorship, <br /> we provide substantial financial
-            backing
-            <br /> to support their self-development
-            <br /> journey.
-          </p>
+
+        <div className="rounded-[10px] p-[24px] flex flex-col gap-[24px] justify-between w-[350px]  sm:w-[411px]  bg-white">
+          <div className="flex flex-col gap-[24px]">
+            <div className=" w-[300px] sm:w-[363px] h-[200px] rounded-[10px] bg-[url('/section6/image3.jpg')] bg-cover bg-center"></div>
+
+            <p className="text-[24px] font-bold text-deepteal">
+              JOIN AS A MENTOR
+            </p>
+            <p className="text-[18px]">
+              Share your expertise and experience <br /> with our community
+              members.
+            </p>
+          </div>
           <Button
-            visibleFrom="sm"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -108,10 +101,10 @@ const Section6 = () => {
             }}
             variant="filled"
             rightSection={
-              <Image src="/Ellipse.svg" width={20} height={18} alt="Logo" />
+              <Image src="/wigledArrow.svg" width={20} height={18} alt="Logo" />
             }
           >
-            Join Our Community
+            Start Mentoring
           </Button>
         </div>
       </div>

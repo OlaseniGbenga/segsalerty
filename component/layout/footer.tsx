@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Button, Divider } from "@mantine/core";
+import { Anchor, Button, Divider } from "@mantine/core";
 
 export default function Footer() {
   return (
@@ -25,10 +25,10 @@ export default function Footer() {
             }}
             variant="fill"
             rightSection={
-              <Image src="/Ellipse.svg" width={20} height={18} alt="Logo" />
+              <Image src="/leftArrow.svg" width={20} height={18} alt="Arrow" />
             }
           >
-            Join Our Community
+            View MORE
           </Button>
         </div>
         <Divider />
@@ -44,34 +44,61 @@ export default function Footer() {
             © 2025 SEGSALERTY. All rights reserved.
           </p>
           <div className="flex gap-[24px] items-center">
-            <Image
-              src="/Fb.svg"
-              className="fill-white"
-              width={24}
-              height={24}
-              alt="Facebook icon"
-            />
-            <Image
-              src="/Tw.svg"
-              className="fill-white"
-              width={24}
-              height={24}
-              alt="Twitter Icon"
-            />
-            <Image
-              src="/Ig.svg"
-              className="fill-white"
-              width={24}
-              height={24}
-              alt="Logo"
-            />
-            <Image
-              src="/Ln.svg"
-              className="fill-white "
-              width={24}
-              height={24}
-              alt="Logo"
-            />
+            <Anchor
+              href="https://www.linkedin.com/company/segsalerty/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/Fb.svg"
+                className="fill-white"
+                width={24}
+                height={24}
+                alt="Facebook icon"
+              />
+            </Anchor>
+
+            <Anchor
+              href="https://x.com/SegsalertyTS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/Tw.svg"
+                className="fill-white"
+                width={24}
+                height={24}
+                alt="Twitter Icon"
+              />
+            </Anchor>
+
+            <Anchor
+              href="https://www.instagram.com/segsalertyts/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/Ig.svg"
+                className="fill-white"
+                width={24}
+                height={24}
+                alt="Logo"
+              />
+            </Anchor>
+
+            <Anchor
+              href="https://www.linkedin.com/company/segsalerty/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/Ln.svg"
+                className="fill-white "
+                width={24}
+                height={24}
+                alt="Logo"
+              />
+            </Anchor>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import { Badge } from "@/component/ui/badge";
 import Image from "next/image";
 import { forwardRef } from "react";
+import Counter from "../ui/counter";
 
 const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
   return (
@@ -23,7 +24,10 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
               height={48}
               alt="Team work"
             />
-            <p className="font-bold text-[38px]">1000+</p>
+            <p className="font-bold text-[38px]">
+              {" "}
+              <Counter to={1000} />+
+            </p>
             <p className="font-normal text-[18px]"> Tech Talents Transformed</p>
           </div>
 
@@ -34,7 +38,7 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
               height={48}
               alt="Team work"
             />
-            <p className="font-bold text-[38px]">10+</p>
+            <p className="font-bold text-[38px]"> <Counter to={10} />+</p>
             <p className="font-normal text-[18px]"> Years of impact</p>
           </div>
 
@@ -45,11 +49,11 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
               height={48}
               alt="Team work"
             />
-            <p className="font-bold text-[38px]">50+</p>
+            <p className="font-bold text-[38px]"> <Counter to={50} />+</p>
             <p className="font-normal text-[18px]"> Collaborative Projects</p>
           </div>
         </div>
-        <div className="px-[20px] md:px-[60px] flex flex-col lg:flex-row  justify-between">
+        <div className="px-[20px] md:px-[60px] flex flex-col lg:flex-row gap-y-[80px] justify-between">
           <div className=" flex flex-col gap-[24]">
             <div className="flex flex-col gap-[8px]">
               <p className="text-deepteal font-bold text-[18px]">
