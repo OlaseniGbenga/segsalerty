@@ -1,7 +1,7 @@
 "use client";
 
 import { useDisclosure } from "@mantine/hooks";
-import { AppShell, Box, Button, Stack} from "@mantine/core";
+import { AppShell, Box, Button, Stack } from "@mantine/core";
 
 import { NAVITEMS } from "@/utils/constants";
 import Footer from "./footer";
@@ -68,12 +68,12 @@ export function BasicAppShell({
               </Box>
             ))}
             <Button
+              className=""
               style={{
                 borderRadius: "10px",
                 color: "white",
                 background: "var(--dark-green)",
-                height: "48px",
-                padding: "16px 24px",
+                
                 alignSelf: "start",
               }}
               variant="filled"

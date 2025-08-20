@@ -90,13 +90,14 @@ export default function Header({ scrollTo, opened, toggle }: ToggleProps) {
             }}
             variant="filled"
             rightSection={
-              <Image src="/Ellipse.svg" width={20} height={18} alt="Logo" />
+              <Image src="/Ellipse.svg" width={20} height={18} alt="group" />
             }
           >
             Join Our Community
           </Button>
         </motion.div>
         <motion.div
+        className="lg:hidden"
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
