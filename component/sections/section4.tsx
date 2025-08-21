@@ -37,6 +37,10 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
             </p>
           </div>
           <Button
+            component="a"
+            href="https://forms.gle/dz1kLrKTafhekxmP8"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -69,6 +73,10 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
             </p>
           </div>
           <Button
+            component="a"
+            href="https://forms.gle/xhDDDuJatybSyk6M7"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -103,6 +111,10 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
             </p>
           </div>
           <Button
+            component="a"
+            href="https://forms.gle/bECC6DhKBPiCZd558"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",

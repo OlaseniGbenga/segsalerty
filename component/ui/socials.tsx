@@ -16,7 +16,7 @@ const Socials = () => {
           <Box className="scroll-track  items-center">
             {[...img, ...img, ...img, ...img, ...img].map((logo, i) => (
               <Box key={i} mx="xl" style={{ flexShrink: 0 }}>
-                <Image src={logo} alt={`Image ${i}`} w={400} h={600} />
+                <Image src={logo} alt={`Image ${i}`} w={{base:200,sm:400}} h={{base:300,sm:600}} />
               </Box>
             ))}
           </Box>

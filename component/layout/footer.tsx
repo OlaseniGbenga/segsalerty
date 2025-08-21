@@ -17,6 +17,10 @@ export default function Footer() {
             <br /> giving back.
           </p>{" "}
           <Button
+            component="a"
+            href="https://t.me/+jh9aL-fYeB04Mjlk"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",

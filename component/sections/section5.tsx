@@ -8,7 +8,10 @@ import { forwardRef } from "react";
 
 const Section5 = forwardRef<HTMLDivElement>((props, ref) => {
   return (
-    <section ref={ref} className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-deepteal">
+    <section
+      ref={ref}
+      className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-deepteal"
+    >
       <div className="flex flex-col gap-[20px]">
         <Badge className="self-center bg-white text-black">
           FINANCIAL TRANSPARENCY
@@ -204,7 +207,10 @@ const Section5 = forwardRef<HTMLDivElement>((props, ref) => {
         </Card>
       </div>
       <Button
-        visibleFrom="sm"
+        component="a"
+        href="https://t.me/+aXqfEpkBcy4xNTc8"
+        target="_blank"
+        rel="noopener noreferrer"
         className="self-center text-darkgreen"
         style={{
           borderRadius: "10px",

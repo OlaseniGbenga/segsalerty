@@ -32,6 +32,10 @@ const Section6 = () => {
             </p>
           </div>
           <Button
+            component="a"
+            href="https://t.me/+aXqfEpkBcy4xNTc8"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -61,6 +65,10 @@ const Section6 = () => {
             </p>
           </div>
           <Button
+            component="a"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfQ2SgADzMvZZK0xxRtUK84ikSjY0QLz-wHeJfO4pzxm-jrug/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",
@@ -91,6 +99,10 @@ const Section6 = () => {
             </p>
           </div>
           <Button
+            component="a"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfhxJES6a3Ur4GL4w37TQkuC9BZ_OmCQluG-hiII71cSzlNng/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               borderRadius: "10px",
               color: "white",
