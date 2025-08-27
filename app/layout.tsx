@@ -48,13 +48,13 @@ export const metadata: Metadata = {
     "tech career growth accelerator",
     "leadership programs for tech professionals",
   ],
-  metadataBase: new URL("https://segsalerty.com"),
-  authors: [{ name: "Segsalerty", url: "https://segsalerty.com" }],
+  metadataBase: new URL("https://segsalerty-phi.vercel.app/"),
+  authors: [{ name: "Segsalerty", url: "https://segsalerty-phi.vercel.app/" }],
   openGraph: {
     title: "Segsalerty Talent Support Initiative",
     description:
       "Segsalerty is a nonprofit tech talent community focused on nurturing gifted minds in Nigeria through mentorship, financial support, and meaningful connections—helping emerging tech professionals reach world-class levels",
-    url: "https://segsalerty.com",
+    url: "https://segsalerty-phi.vercel.app/",
     siteName: "Segsalerty Talent Support Initiative",
     locale: "en_NG",
     type: "website",
