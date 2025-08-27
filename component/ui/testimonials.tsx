@@ -1,4 +1,3 @@
-"use client";
 import { Box, Image } from "@mantine/core";
 
 const testimonials = [
@@ -13,7 +12,12 @@ const Testimonial = () => {
       <div className=" mb-8 flex flex-col gap-6 bg py-8">
         <Box className="scroll-wrapper  ">
           <Box className="scroll-track  items-center">
-            {[...testimonials, ...testimonials, ...testimonials, ...testimonials].map((testimonial, i) => (
+            {[
+              ...testimonials,
+              ...testimonials,
+              ...testimonials,
+              ...testimonials,
+            ].map((testimonial, i) => (
               <Box
                 key={i}
                 w={411}
@@ -21,7 +25,11 @@ const Testimonial = () => {
                 className="logo-item"
                 style={{ flexShrink: 0 }}
               >
-                <Image src={testimonial} alt={`Testimonial ${i}`} fit="contain" />
+                <Image
+                  src={testimonial}
+                  alt={`Testimonial ${i}`}
+                  fit="contain"
+                />
               </Box>
             ))}
           </Box>

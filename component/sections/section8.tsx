@@ -1,7 +1,5 @@
 import { Badge } from "@/component/ui/badge";
-
 import Image from "next/image";
-
 import Socials from "../ui/socials";
 import { Anchor } from "@mantine/core";
 

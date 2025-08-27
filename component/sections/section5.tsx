@@ -1,5 +1,3 @@
-"use client";
-
 import { Badge } from "@/component/ui/badge";
 
 import { Button, Card, Text } from "@mantine/core";

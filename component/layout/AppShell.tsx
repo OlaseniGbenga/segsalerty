@@ -1,5 +1,3 @@
-"use client";
-
 import { useDisclosure } from "@mantine/hooks";
 import { AppShell, Box, Button, Stack } from "@mantine/core";
 import { NAVITEMS } from "@/utils/constants";
