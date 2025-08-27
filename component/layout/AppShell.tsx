@@ -2,7 +2,6 @@
 
 import { useDisclosure } from "@mantine/hooks";
 import { AppShell, Box, Button, Stack } from "@mantine/core";
-
 import { NAVITEMS } from "@/utils/constants";
 import Footer from "./footer";
 import Header from "./header";
@@ -73,7 +72,7 @@ export function BasicAppShell({
                 borderRadius: "10px",
                 color: "white",
                 background: "var(--dark-green)",
-                
+
                 alignSelf: "start",
               }}
               variant="filled"

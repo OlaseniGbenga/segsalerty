@@ -87,7 +87,7 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
             }}
             variant="filled"
             rightSection={
-              <Image src="leftArrow.svg" width={20} height={18} alt="Logo" />
+              <Image src="leftArrow.svg" width={20} height={18} alt="Left Arrow" />
             }
           >
             Join the Accelerator
@@ -125,7 +125,7 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
             }}
             variant="filled"
             rightSection={
-              <Image src="/leftArrow.svg" width={20} height={18} alt="Logo" />
+              <Image src="/leftArrow.svg" width={20} height={18} alt="Left Arrow" />
             }
           >
             Join the Circle

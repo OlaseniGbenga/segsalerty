@@ -36,7 +36,7 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
               src="/section2/Target.svg"
               width={48}
               height={48}
-              alt="Team work"
+              alt="Target Icon"
             />
             <p className="font-bold text-[38px]"> <Counter to={10} />+</p>
             <p className="font-normal text-[18px]"> Years of impact</p>
@@ -47,7 +47,7 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
               src="/section2/Handshake.svg"
               width={48}
               height={48}
-              alt="Team work"
+              alt="Handshake Icon"
             />
             <p className="font-bold text-[38px]"> <Counter to={50} />+</p>
             <p className="font-normal text-[18px]"> Collaborative Projects</p>
@@ -103,7 +103,7 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
             src="/unique-impact.png"
             width={500}
             height={400}
-            alt="Team wok"
+            alt="Target Icon "
             className="w-full md:w-[500px] h-auto"
           />
         </div>

@@ -70,7 +70,7 @@ const Section3 = forwardRef<HTMLDivElement>((props, ref) => {
           src="/segun.png"
           width={500}
           height={400}
-          alt="Team wok"
+          alt="Segun Mustafa"
           className="w-full md:w-[500px] h-auto"
         />
       </div>

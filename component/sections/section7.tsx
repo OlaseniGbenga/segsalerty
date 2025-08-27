@@ -29,7 +29,7 @@ const Section7 = () => {
         }}
         variant="filled"
         rightSection={
-          <Image src="/Ellipse.svg" width={20} height={18} alt="Logo" />
+          <Image src="/Ellipse.svg" width={20} height={18} alt="Ellipse" />
         }
       >
         Join Our Community

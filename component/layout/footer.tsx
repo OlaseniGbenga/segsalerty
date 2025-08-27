@@ -86,7 +86,7 @@ export default function Footer() {
                 className="fill-white"
                 width={24}
                 height={24}
-                alt="Logo"
+                alt="Instagram Icon"
               />
             </Anchor>
 
@@ -100,7 +100,7 @@ export default function Footer() {
                 className="fill-white "
                 width={24}
                 height={24}
-                alt="Logo"
+                alt="LinkedIn Icon"
               />
             </Anchor>
           </div>

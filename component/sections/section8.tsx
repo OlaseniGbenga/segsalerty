@@ -49,7 +49,7 @@ const Section8 = () => {
               className="fill-white"
               width={40}
               height={40}
-              alt="Logo"
+              alt="Instagram Icon"
             />
           </Anchor>
 
@@ -63,7 +63,7 @@ const Section8 = () => {
               className="fill-white "
               width={40}
               height={40}
-              alt="Logo"
+              alt="LinkedIn Icon"
             />
           </Anchor>
         </div>

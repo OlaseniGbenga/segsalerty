@@ -50,7 +50,7 @@ const Hero = () => {
             }}
             variant="default"
             rightSection={
-              <Image src="/Vector.svg" width={10} height={10} alt="support" />
+              <Image src="/Vector.svg" width={10} height={10} alt="Right Arrow" />
             }
           >
            Join Next Cohort

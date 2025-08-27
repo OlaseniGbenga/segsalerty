@@ -221,7 +221,7 @@ const Section5 = forwardRef<HTMLDivElement>((props, ref) => {
         }}
         variant="filled"
         rightSection={
-          <Image src="/give.svg" width={20} height={18} alt="Logo" />
+          <Image src="/give.svg" width={20} height={18} alt="Give Icon" />
         }
       >
         Give to the community

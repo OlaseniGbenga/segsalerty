@@ -39,7 +39,6 @@ export default function Home() {
         >
           <Hero />
         </motion.div>
-
         <Section2 ref={refs.Impact} />
         <Section3 ref={refs.About} />
         <Section4 ref={refs.Programs} />
@@ -51,4 +50,3 @@ export default function Home() {
     </>
   );
 }
-//https://www.figma.com/design/jYLhtMYidPyTMQFPhuNep6/SEGSALERTY?node-id=183-818&t=uSN6N0F18SRIBmk9-0
