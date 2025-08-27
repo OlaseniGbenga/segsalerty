@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://segsalerty-phi.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Segsalerty",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     title: "Segsalerty",
     description:
       "Segsalerty is a nonprofit tech talent community focused on nurturing gifted minds in Nigeria through mentorship, financial support, and meaningful connections—helping emerging tech professionals reach world-class levels",
-    images: ["/og-image.jpg"],
+    images: ["https://segsalerty-phi.vercel.app/og-image.jpg"],
     site: "@SegsalertyTS",
     creator: "@SegsalertyTS",
   },
