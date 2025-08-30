@@ -141,6 +141,13 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
           <br /> thrive. &quot;
         </span>
       </p>
+       <section className="self-center w-[80%] md:w-[90%] border-3 border-extra border-lightteal relative py-[30px] px-[30px]">
+      <p className="text-[32px] text-center">&quot;While we scale to impact more lives, our commitment remains unchanged:<span className="font-bold pl-1">ensuring YOU receive the personal guidance and support YOU need to thrive.&quot;</span></p>
+        <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute  -top-[11px] -right-[11px] bg-white"></div>
+        <div className=" border-lightteal w-4 h-4 border-2  absolute -top-[11px] -left-[11px] bg-white"></div>
+        <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute -bottom-[11px] -left-[11px] bg-white"></div>
+        <div className="border-lightteal  w-4 h-4 border-2 border-extra absolute -bottom-[11px] bg-white -right-[11px]"></div>
+      </section>
     </section>
   );
 });

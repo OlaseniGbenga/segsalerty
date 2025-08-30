@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Section6 = () => {
   return (
-    <section className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-cyan">
+    <section className="flex  flex-col gap-[80px] py-[80px] px-[20px] md:px-[60px] bg-[#F5F7FA]">
       <div className="flex flex-col gap-[20px]">
         <Badge className="self-center">SUPPORT OUR MISSION</Badge>
         <p className="font-normal text-[17px] text-center">

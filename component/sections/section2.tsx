@@ -6,14 +6,20 @@ import Counter from "../ui/counter";
 const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <section ref={ref} className="py-[80px] flex flex-col gap-[80px]">
-      <p className="text-[32px] font-normal text-center px-[20px] md:px-[60px]">
-        We take pride in our distinctive approach: rather than directly teaching{" "}
-        <br /> technical skills,{" "}
-        <span className="font-bold">
-          we focus on unleashing the inherent potential within
-          <br /> talented tech enthusiasts.
-        </span>
-      </p>
+      <section className="self-center w-[80%] md:w-[90%] border-3 border-extra border-lightteal relative py-[30px] px-[30px]">
+        <p className="text-[32px] text-center">
+          We take pride in our distinctive approach: rather than directly
+          teaching technical skills,
+          <span className="font-bold">
+            we focus on unleashing the inherent potential within talented tech
+            enthusiasts.
+          </span>
+        </p>
+        <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute  -top-[11px] -right-[11px] bg-white"></div>
+        <div className=" border-lightteal w-4 h-4 border-2  absolute -top-[11px] -left-[11px] bg-white"></div>
+        <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute -bottom-[11px] -left-[11px] bg-white"></div>
+        <div className="border-lightteal  w-4 h-4 border-2 border-extra absolute -bottom-[11px] bg-white -right-[11px]"></div>
+      </section>
       <div className="  flex flex-col  gap-[80px]">
         <Badge className="self-center">OUR UNIQUE IMPACT</Badge>
         <div className="self-center bg-[#E6F2EF] flex gap-[40px] px-[40px] rounded-[10px] flex-col md:flex-row ">
@@ -38,7 +44,10 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
               height={48}
               alt="Target Icon"
             />
-            <p className="font-bold text-[38px]"> <Counter to={10} />+</p>
+            <p className="font-bold text-[38px]">
+              {" "}
+              <Counter to={10} />+
+            </p>
             <p className="font-normal text-[18px]"> Years of impact</p>
           </div>
 
@@ -49,7 +58,10 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
               height={48}
               alt="Handshake Icon"
             />
-            <p className="font-bold text-[38px]"> <Counter to={50} />+</p>
+            <p className="font-bold text-[38px]">
+              {" "}
+              <Counter to={50} />+
+            </p>
             <p className="font-normal text-[18px]"> Collaborative Projects</p>
           </div>
         </div>
@@ -109,17 +121,21 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
         </div>
       </div>
 
-      <p className="px-[20px] md:px-[60px] text-[32px] font-normal text-center">
-        &quot;Our community doesn&apos;t just create developers or designers –{" "}
-        <span className="font-bold">
-          we nurture <br />
-          individuals who approach every challenge with the &apos;Machine
-          Spirit&apos;,
-        </span>{" "}
-        turning
-        <br /> them into exceptional problem solvers and leaders in their
-        fields.&quot;
-      </p>
+      <section className="self-center w-[80%] md:w-[90%] border-3 border-extra border-lightteal relative py-[30px] px-[30px]">
+        <p className="text-[32px] text-center">
+          &quot;Our community doesn&apos;t just create developers or designers –
+          <span className="font-bold">
+            we nurture individuals who approach every challenge with the
+            &apos;Machine Spirit&apos;
+          </span>
+          , turning them into exceptional problem solvers and leaders in their
+          fields.&quot;
+        </p>
+        <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute  -top-[11px] -right-[11px] bg-white"></div>
+        <div className=" border-lightteal w-4 h-4 border-2  absolute -top-[11px] -left-[11px] bg-white"></div>
+        <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute -bottom-[11px] -left-[11px] bg-white"></div>
+        <div className="border-lightteal  w-4 h-4 border-2 border-extra absolute -bottom-[11px] bg-white -right-[11px]"></div>
+      </section>
     </section>
   );
 });
