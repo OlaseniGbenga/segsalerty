@@ -87,7 +87,12 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
             }}
             variant="filled"
             rightSection={
-              <Image src="leftArrow.svg" width={20} height={18} alt="Left Arrow" />
+              <Image
+                src="leftArrow.svg"
+                width={20}
+                height={18}
+                alt="Left Arrow"
+              />
             }
           >
             Join the Accelerator
@@ -125,24 +130,28 @@ const Section4 = forwardRef<HTMLDivElement>((props, ref) => {
             }}
             variant="filled"
             rightSection={
-              <Image src="/leftArrow.svg" width={20} height={18} alt="Left Arrow" />
+              <Image
+                src="/leftArrow.svg"
+                width={20}
+                height={18}
+                alt="Left Arrow"
+              />
             }
           >
             Join the Circle
           </Button>
         </div>
       </div>
-      <p className="text-[28px] text-center">
-        &quot;While we scale to impact more lives, our commitment remains
-        unchanged:
-        <br />{" "}
-        <span className="font-bold">
-          ensuring YOU receive the personal guidance and support YOU need to
-          <br /> thrive. &quot;
-        </span>
-      </p>
-       <section className="self-center w-[80%] md:w-[90%] border-3 border-extra border-lightteal relative py-[30px] px-[30px]">
-      <p className="text-[32px] text-center">&quot;While we scale to impact more lives, our commitment remains unchanged:<span className="font-bold pl-1">ensuring YOU receive the personal guidance and support YOU need to thrive.&quot;</span></p>
+
+      <section className="self-center w-[80%] md:w-[90%] border-3 border-extra border-lightteal relative py-[30px] px-[30px]">
+        <p className="text-[16px] md:text-[32px] ">
+          &quot;While we scale to impact more lives, our commitment remains
+          unchanged:
+          <span className="font-bold pl-1">
+            ensuring YOU receive the personal guidance and support YOU need to
+            thrive.&quot;
+          </span>
+        </p>
         <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute  -top-[11px] -right-[11px] bg-white"></div>
         <div className=" border-lightteal w-4 h-4 border-2  absolute -top-[11px] -left-[11px] bg-white"></div>
         <div className=" border-lightteal w-4 h-4 border-2 border-extra absolute -bottom-[11px] -left-[11px] bg-white"></div>

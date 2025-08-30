@@ -7,7 +7,7 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <section ref={ref} className="py-[80px] flex flex-col gap-[80px]">
       <section className="self-center w-[80%] md:w-[90%] border-3 border-extra border-lightteal relative py-[30px] px-[30px]">
-        <p className="text-[32px] text-center">
+        <p className="text-[16px] md:text-[32px] text-center">
           We take pride in our distinctive approach: rather than directly
           teaching technical skills,
           <span className="font-bold">
@@ -122,7 +122,7 @@ const Section2 = forwardRef<HTMLDivElement>((props, ref) => {
       </div>
 
       <section className="self-center w-[80%] md:w-[90%] border-3 border-extra border-lightteal relative py-[30px] px-[30px]">
-        <p className="text-[32px] text-center">
+        <p className="text-[16px] md:text-[32px] ">
           &quot;Our community doesn&apos;t just create developers or designers –
           <span className="font-bold">
             we nurture individuals who approach every challenge with the

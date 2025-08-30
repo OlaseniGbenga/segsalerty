@@ -79,7 +79,12 @@ const Section6 = () => {
             }}
             variant="filled"
             rightSection={
-              <Image src="/leftArrow.svg" width={20} height={18} alt="Left Arrow" />
+              <Image
+                src="/leftArrow.svg"
+                width={20}
+                height={18}
+                alt="Left Arrow"
+              />
             }
           >
             Join the Accelerator
@@ -113,7 +118,12 @@ const Section6 = () => {
             }}
             variant="filled"
             rightSection={
-              <Image src="/wigledArrow.svg" width={20} height={18} alt="wigled Arrow" />
+              <Image
+                src="/wigledArrow.svg"
+                width={20}
+                height={18}
+                alt="wigled Arrow"
+              />
             }
           >
             Start Mentoring
